@@ -7,7 +7,7 @@ Just execute in your ~ and have a nice day
 
     wget -q -O - https://github.com/robertlogos/virgulilla/tarball/master | tar zx --strip=1
 
-![virgulilla](https://github.com/robertlogos/virgulilla/screenshot.png)
+![virgulilla](https://raw.githubusercontent.com/robertlogos/virgulilla/master/screenshot.png)
 
 ## Prerequisites
 *TODO*
