@@ -4,8 +4,11 @@ Based on [ets-labs/python-vimrc](https://github.com/ets-labs/python-vimrc), virg
   
 Just execute in your ~ and have a nice day
 
+	curl  -L https://github.com/robertlogos/virgulilla/tarball/master | tar xz --strip-components=1
 
-    wget -q -O - https://github.com/robertlogos/virgulilla/tarball/master | tar zx --strip=1
+wget alternative: 
+
+    wget -q -O - https://github.com/robertlogos/virgulilla/tarball/master | tar xz --strip=1
 
 ![virgulilla](https://raw.githubusercontent.com/robertlogos/virgulilla/master/screenshot.png)
 
