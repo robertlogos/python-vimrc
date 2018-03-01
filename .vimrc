@@ -5,7 +5,7 @@ endif
 
 filetype off
 call plug#begin('~/.vim/plugged')
-
+    
     "-------------------=== Code/Project navigation ===-------------
     Plug 'scrooloose/nerdtree'                " Project and file navigation
     Plug 'kien/ctrlp.vim'                     " Fast transitions on project files
@@ -18,6 +18,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'rosenfeld/conque-term'              " Consoles as buffers
     Plug 'tpope/vim-surround'                 " Parentheses, brackets, quotes, XML tags, and more
     Plug 'flazz/vim-colorschemes'             " Colorschemes
+    Plug 'vimoutliner/vimoutliner'
 
     "-------------------=== Autocomplete / Snippets support ===--------------------
     Plug 'Shougo/neocomplete'                 " Autocomplete features
@@ -27,9 +28,8 @@ call plug#begin('~/.vim/plugged')
     "-------------------=== Languages support ===-------------------
     Plug 'tpope/vim-commentary'               " Comment stuff out
     Plug 'mitsuhiko/vim-sparkup'              " Sparkup(XML/jinja/htlm-django/etc.) support
-    Plug 'Rykka/riv.vim'                      " ReStructuredText live preview 
-    Plug 'iamcco/markdown-preview.vim'        " Markdown live preview 
-
+    Plug 'Rykka/riv.vim'                      " ReStructuredText plugin
+    Plug 'iamcco/markdown-preview.vim'        " Markdown live preview
     "-------------------=== Python  ===-----------------------------
     Plug 'scrooloose/syntastic'               " Syntax checking plugin for Vim
 
