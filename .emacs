@@ -19,7 +19,7 @@
  '(global-linum-mode t)
  '(package-selected-packages
    (quote
-    (neotree hlinum spaceline-all-the-icons spaceline ## rich-minority powerline-evil gruvbox-theme)))
+    (markdown-preview-eww markdown-preview-mode markdown-mode neotree hlinum spaceline-all-the-icons spaceline ## rich-minority powerline-evil gruvbox-theme)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -45,7 +45,9 @@
 (add-to-list 'load-path "~/.")
 (global-set-key "\M-2" 'neotree-toggle) 
 
-
+(setq markdown-content-type "text/html")
+(setq markdown-split-window-direction 'right)
+(setq markdown-css-paths `(,(expand-file-name "~/.emacs.d/mymarkdown.css")))
 (setq ns-use-srgb-colorspace nil)
 
 (tool-bar-mode -1)
